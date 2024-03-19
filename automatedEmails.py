@@ -1,6 +1,3 @@
-# Este código tem como principal função o envio automático de e-mails
-# Lembrando que por fora fiz algumas configurações específicas, como transformar em .exe e conectar com o agendador de tarefas do Windows
-
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
